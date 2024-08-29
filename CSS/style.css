@@ -1,0 +1,204 @@
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #aae2f9; 
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 0 20px;
+}
+
+/* Header Section */
+.header {
+    
+    background-color: #8cd9fa;
+
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* display: flex;  */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.header .nav ul li {
+    display: inline-block;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.header .nav ul li a.buy-now {
+    background-color: #ff6347;
+    color: #000000;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+
+/* Banner Section */
+.banner {
+    color: #000000;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ade2f8;
+}
+
+.banner-content {
+    max-width: 50%;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.banner .cta, .banner .cta-secondary {
+    border: 2px solid #fff;
+    background-color: rgb(251, 57, 57);
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.banner .cta-secondary {
+    background-color: rgb(251, 57, 57);
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+/* Banner Image */
+.banner-image {
+    max-width: 50%;
+}
+
+.banner-image .watch-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Features Section */
+
+
+#feature-heading{
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+    color: #333;
+   
+   
+}
+.features {
+    background-color: #3d5f80;
+    padding: 30px 0;
+    text-align: center;
+    
+}
+
+
+
+.features .feature {
+     display: inline-block;
+    width: 30%;
+    margin: 0 1%; 
+   box-sizing: border-box; 
+    padding: 20px;
+    background-color: #83c1da;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+   
+}
+
+.features .feature-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.features .feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.features .feature p {
+    font-size: 16px;
+}
+
+/* About Us Section */
+.about-us {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 50px  0;
+    text-align: center;
+    background-color: #d7e4f2; 
+}
+
+.about-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-us p {
+    font-size: 18px;
+   width: 60%;
+    margin: 0 auto;
+
+}
+
+
+/* Footer Section */
+footer {
+    background: #151521;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #aaa;
+}
